@@ -1,0 +1,32 @@
+.homepage
+{
+    min-height:95vh;
+}
+
+
+.leftContainer
+{
+    width:50vw;
+    min-height:95vh;
+    background-color:#3a4750;
+}
+.rightContainer
+{
+    width:50vw;
+    
+    background-color:blue;
+}
+.myName
+{
+    font-size:6.5rem;
+    color:#F6C90E;
+    font-family: 'Cookie', cursive;
+    text-align:center;
+}
+.myBio
+{
+    font-size:4rem;
+    color:#FCFFC1;
+    font-family: 'Cookie', cursive;
+    text-align:center;
+}

@@ -1,0 +1,31 @@
+.navContainer
+{
+    width:85vw !important;
+    
+    margin-top: 0px;
+    border-radius:7px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+}
+.navContainer img {
+    width:6rem;
+}
+.navContainer p{
+    color:#FCFFC1;
+    font-size:4rem;
+    margin: 0 2rem 0 2rem;
+    font-family: 'Cookie', cursive;
+}
+.navMenu p{
+    font-size:1.4rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    text-transform:uppercase;
+    letter-spacing:0.2rem;
+
+}
