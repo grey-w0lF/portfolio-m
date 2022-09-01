@@ -6,7 +6,7 @@ const Homepage = () => {
   return (
     <div className="homepage">
       <Grid container justifyContent="space-between">
-        <Grid item className="leftContainer">
+        <Grid item className="leftContainer" xs={12} sm={6}>
           <Grid item style={{ marginTop: "25rem" }}>
             <p className="myName">Abhinav Raj</p>
             <p className="myBio">
@@ -16,8 +16,8 @@ const Homepage = () => {
             </p>
           </Grid>
         </Grid>
-        <Grid item className="rightContainer">
-          Hello2
+        <Grid item className="rightContainer" xs={12} sm={6}>
+          
         </Grid>
       </Grid>
     </div>

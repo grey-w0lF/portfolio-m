@@ -1,6 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 import { Grid, Box } from "@mui/material";
+import HomeIcon from "@mui/icons-material/Home";
+import AccountBoxIcon from "@mui/icons-material/AccountBox";
+import BuildCircleIcon from "@mui/icons-material/BuildCircle";
+import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 
 const Header = () => {
   return (
@@ -30,16 +35,36 @@ const Header = () => {
               className="navMenu"
             >
               <Grid item>
-                <p>Home</p>
+                <Link to="/" style={{ textDecoration: "none" }}>
+                  <p>
+                    <HomeIcon className="navIcon" />
+                    Home
+                  </p>
+                </Link>
               </Grid>
               <Grid item>
-                <p>About</p>
+                <Link to="/about" style={{ textDecoration: "none" }}>
+                  <p>
+                    <AccountBoxIcon className="navIcon" />
+                    About
+                  </p>
+                </Link>
               </Grid>
               <Grid item>
-                <p>Project</p>
+                <Link to="/projects" style={{ textDecoration: "none" }}>
+                  <p>
+                    <BuildCircleIcon className="navIcon" />
+                    Project
+                  </p>
+                </Link>
               </Grid>
               <Grid item>
-                <p>Contact</p>
+                <Link to="/contact" style={{ textDecoration: "none" }}>
+                  <p>
+                    <ContactPhoneIcon className="navIcon" />
+                    Contact
+                  </p>
+                </Link>
               </Grid>
             </Grid>
           </Grid>

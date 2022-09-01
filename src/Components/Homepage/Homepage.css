@@ -1,6 +1,6 @@
 .homepage
 {
-    min-height:95vh;
+   height:95vh;
 }
 
 
@@ -8,25 +8,52 @@
 {
     width:50vw;
     min-height:95vh;
-    background-color:#3a4750;
+    background-color:#094647;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
 }
 .rightContainer
 {
     width:50vw;
-    
-    background-color:blue;
+    background-image: url("../../../public//images/homebg2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 .myName
 {
     font-size:6.5rem;
-    color:#F6C90E;
+    color:#04F2D5;
     font-family: 'Cookie', cursive;
     text-align:center;
 }
 .myBio
 {
-    font-size:4rem;
-    color:#FCFFC1;
+    font-size:3.5rem;
+    color:#ffffff;
     font-family: 'Cookie', cursive;
     text-align:center;
 }
+
+
+
+@media screen and (max-width: 992px) {
+   
+  }
+  
+  @media screen and (max-width: 768px) {
+    
+  }
+  
+  @media screen and (max-width: 576px) {
+    .leftContainer
+    {
+        
+        min-height:50vh;
+        
+    }
+    .rightContainer
+{
+    width:50vw;
+    min-height: 50vh;
+}
+  }
