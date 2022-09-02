@@ -11,29 +11,90 @@
     
 }
 .navContainer img {
-    width:6rem;
+    width:10rem;
+    margin:1.2rem;
 }
 .navContainer p{
-    color:#79e3d7;
+    color:#299df2;
     font-size:3.5rem;
     margin: 0 2rem 0 2rem;
     font-family: 'Cookie', cursive;
 }
 .navMenu p{
     font-size:1.5rem;
-    color:#094647;
+    color:#072b62;
     
     margin: 0 1rem 0 1rem;
     font-family: 'IBM Plex Mono', monospace;
-    font-weight: 800;
+    font-weight: 900;
     text-transform:uppercase;
     letter-spacing:0.01rem;
 
 }
 .navIcon {
     color:#ff4d6b;
-    font-size: 2rem !important;
+    font-size: 2.2rem !important;
     position: relative;
-    margin-right: 0.2rem;
-    top:0.4rem;
+    margin-right: 0.4rem;
+    top:0.5rem;
+}
+.navPopper
+{
+    display:none;
+    
+}
+.toggleButton
+{
+    font-size:5rem !important;
+    color:#d9d9d9;
+    margin-right:1rem;
+}
+.popupMenu
+{
+  
+   margin-right: 30px;
+   background: linear-gradient(deg, rgba(24, 222, 199, 0), rgba(4, 242, 214, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 5px 15px 0 rgba(4, 242, 213, 0.37);
+  width:200px;
+}
+.popupMenu li{
+    list-style:none;
+    font-size:2.2rem;
+    margin: 2rem;
+    font-family: "IBM Plex Sans", sans-serif;
+    color:#d9d9d9;
+    
+}
+.popupIcon
+{
+    font-size: 3rem !important;
+    margin:0 1rem 0 1rem;
+    position: relative;
+    top:0.5rem;
+    color:#299df2;
+}
+@media screen and (max-width: 992px) {
+   
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 625px) {
+    .navMenu
+    {
+        display:none !important;
+    }
+    .navPopper
+    {
+        display: block;
+    }
+    .navContainer img {
+        
+        margin-left:3rem;
+    }
 }

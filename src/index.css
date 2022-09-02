@@ -13,7 +13,11 @@
    font-family: "IBM Plex Sans", sans-serif;
 }
 
-
+@media screen and (max-width: 1500px) {
+  html {
+    font-size: 70%;
+  }
+}
 
 @media screen and (max-width: 992px) {
   html {

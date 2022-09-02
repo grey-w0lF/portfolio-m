@@ -1,0 +1,129 @@
+.AboutPageContainer
+{
+    min-height:90vh;
+}
+.shapeBox1
+{
+    min-height:50rem;
+    background-color:#072b62;
+    border-radius:0% 0% 100% 0%;
+    text-align: center;
+    
+}
+.schoolIcon
+{
+    margin-top:15rem;
+    font-size:8rem !important;
+    color:#d9d9d9;
+}
+.shapeBox1 h2{
+    font-size:6.5rem;
+    font-weight:500;
+    color:#299df2;
+    font-family: 'Cookie', cursive;
+    
+}
+.shapeBox1 p{
+    font-size:3.5rem;
+    color:#d9d9d9;
+    font-family: 'Cookie', cursive;
+    
+}
+.aboutLeftContainer
+{
+    min-height:90vh;
+    
+}
+.aboutRightContainer
+{
+    min-height:50vh;
+    background-image: url("../../../public//images/edu.jpg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position:center;
+    
+  
+
+}
+.eduCards
+{
+    min-width: 50rem;
+    min-height: 10rem;
+    background: linear-gradient(deg, rgba(24, 222, 199, 0), rgba(4, 242, 214, 0));
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 5px 15px 0 rgba(4, 242, 213, 0.37);
+    margin-top: 3rem;
+}
+.eduCards h3
+{
+    text-transform: uppercase;
+    text-align: left;
+    color:#072b62;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    font-weight:800;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.cardIcon1
+{
+    color:#ff4d6b;
+    font-size: 2.5rem !important;
+    position: relative;
+    top:0.6rem;
+    margin-right: 0.5rem;
+}
+.eduCards img{
+    float: right;
+    width:7rem;
+    position: relative;
+    bottom:4rem;
+    margin-right:0.5rem;
+}
+.eduCards h4{
+    font-size:1.4rem;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: 0.8rem;
+    color:#072b62;
+
+}
+.eduCards p{
+    font-size:1rem;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: 0.8rem;
+    font-weight: 600;
+    color:#072b62; 
+}
+.webIcon{
+    color:#ff4d6b;
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
+    font-size: 2rem !important;
+    
+    
+}
+
+@media screen and (max-width: 992px) {
+   
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 576px) {
+
+.shapeBox1
+{
+    border-radius:0% 0% 20% 0%;
+}
+.aboutLeftContainer
+{
+    min-height:50vh;
+    
+}
+
+
+}

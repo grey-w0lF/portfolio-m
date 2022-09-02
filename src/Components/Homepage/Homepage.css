@@ -8,8 +8,9 @@
 {
     width:50vw;
     min-height:95vh;
-    background-color:#094647;
-    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+    background-color:#072b62;
+   border-radius: 0% 50% 1% 20%;
+    /* background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png"); */
 }
 .rightContainer
 {
@@ -22,16 +23,17 @@
 .myName
 {
     font-size:6.5rem;
-    color:#04F2D5;
+    color:#299df2;
     font-family: 'Cookie', cursive;
     text-align:center;
 }
 .myBio
 {
     font-size:3.5rem;
-    color:#ffffff;
+    color:#d9d9d9;
     font-family: 'Cookie', cursive;
     text-align:center;
+    margin:1rem;
 }
 
 
@@ -49,6 +51,8 @@
     {
         
         min-height:50vh;
+        border-radius: 0% 0% 1% 20%;
+
         
     }
     .rightContainer
