@@ -11,17 +11,17 @@
     
 }
 .navContainer img {
-    width:10rem;
-    margin:1.2rem;
+    width:6.8rem;
+    margin:0.8rem;
 }
 .navContainer p{
     color:#299df2;
-    font-size:3.5rem;
+    font-size:2.4rem;
     margin: 0 2rem 0 2rem;
     font-family: 'Cookie', cursive;
 }
 .navMenu p{
-    font-size:1.5rem;
+    font-size:1rem;
     color:#072b62;
     
     margin: 0 1rem 0 1rem;
@@ -33,7 +33,7 @@
 }
 .navIcon {
     color:#ff4d6b;
-    font-size: 2.2rem !important;
+    font-size: 1.8rem !important;
     position: relative;
     margin-right: 0.4rem;
     top:0.5rem;
@@ -95,6 +95,6 @@
     }
     .navContainer img {
         
-        margin-left:3rem;
+        margin-left:80%;
     }
 }

@@ -25,7 +25,7 @@ const Header = () => {
       container
       justifyContent="center"
       alignItems="center"
-      style={{ position: "absolute", marginTop: "4rem" }}
+      style={{ position: "absolute", marginTop: "2rem" }}
     >
       <motion.Box
         className="navContainer"

@@ -4,7 +4,7 @@
 }
 .shapeBox1
 {
-    min-height:50rem;
+    min-height:40rem;
     background-color:#072b62;
     border-radius:0% 0% 100% 0%;
     text-align: center;
@@ -12,19 +12,19 @@
 }
 .schoolIcon
 {
-    margin-top:15rem;
+    margin-top:12rem;
     font-size:8rem !important;
     color:#d9d9d9;
 }
 .shapeBox1 h2{
-    font-size:6.5rem;
+    font-size:3.8rem;
     font-weight:500;
     color:#299df2;
     font-family: 'Cookie', cursive;
     
 }
 .shapeBox1 p{
-    font-size:3.5rem;
+    font-size:2.8rem;
     color:#d9d9d9;
     font-family: 'Cookie', cursive;
     
@@ -47,8 +47,8 @@
 }
 .eduCards
 {
-    min-width: 50rem;
-    min-height: 10rem;
+    min-width: 45rem;
+    
     background: linear-gradient(deg, rgba(24, 222, 199, 0), rgba(4, 242, 214, 0));
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
@@ -61,8 +61,8 @@
     text-transform: uppercase;
     text-align: left;
     color:#072b62;
-    font-size: 1.5rem;
-    margin: 0.5rem;
+    font-size: 1rem;
+    margin: 0.1rem;
     font-weight:800;
     font-family: 'IBM Plex Mono', monospace;
 }
@@ -70,37 +70,38 @@
 .cardIcon1
 {
     color:#ff4d6b;
-    font-size: 2.5rem !important;
+    font-size: 1.8rem !important;
     position: relative;
-    top:0.6rem;
+    top:0.5rem;
     margin-right: 0.5rem;
 }
 .eduCards img{
     float: right;
-    width:7rem;
+    width:4rem;
     position: relative;
-    bottom:4rem;
+    bottom:2rem;
     margin-right:0.5rem;
 }
 .eduCards h4{
-    font-size:1.4rem;
+    font-size:0.9rem;
     font-family: 'IBM Plex Mono', monospace;
-    margin-left: 0.8rem;
+    margin-left: 2.4rem;
     color:#072b62;
 
 }
 .eduCards p{
-    font-size:1rem;
+    font-size:0.7rem;
     font-family: 'IBM Plex Mono', monospace;
-    margin-left: 0.8rem;
+    
+    margin-left: 2.4rem;
     font-weight: 600;
     color:#072b62; 
 }
 .webIcon{
     color:#ff4d6b;
-    margin-left: 0.8rem;
-    margin-top: 0.8rem;
-    font-size: 2rem !important;
+    
+    margin-top:0.2rem;
+    font-size: 1.8rem !important;
     
     
 }
@@ -121,7 +122,7 @@
 }
 .aboutLeftContainer
 {
-    min-height:50vh;
+    min-height:40vh;
     
 }
 

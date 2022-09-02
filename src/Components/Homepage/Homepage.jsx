@@ -19,7 +19,7 @@ const Homepage = () => {
             animate={grid1_animate}
             transition={grid1_transition}
           >
-            <Grid item style={{ marginTop: "24rem" }}>
+            <Grid item style={{ marginTop: "15rem" }}>
               <motion.p className="myName" whileHover={nameHover}>
                 Abhinav Raj
               </motion.p>
