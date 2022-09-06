@@ -1,6 +1,13 @@
 .AboutPageContainer
 {
-    min-height:90vh;
+    min-height:100vh;
+   
+    overflow:hidden;
+    
+}
+.iDoContainer
+{
+    min-height:100vh;
 }
 .shapeBox1
 {
@@ -47,7 +54,7 @@
 }
 .eduCards
 {
-    min-width: 45rem;
+    width: 40rem;
     
     background: linear-gradient(deg, rgba(24, 222, 199, 0), rgba(4, 242, 214, 0));
     backdrop-filter: blur(7px);
@@ -61,7 +68,7 @@
     text-transform: uppercase;
     text-align: left;
     color:#072b62;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 0.1rem;
     font-weight:800;
     font-family: 'IBM Plex Mono', monospace;
@@ -77,20 +84,20 @@
 }
 .eduCards img{
     float: right;
-    width:4rem;
+    width:4.5rem;
     position: relative;
-    bottom:2rem;
+    bottom:2.6rem;
     margin-right:0.5rem;
 }
 .eduCards h4{
-    font-size:0.9rem;
+    font-size:1.3rem;
     font-family: 'IBM Plex Mono', monospace;
     margin-left: 2.4rem;
     color:#072b62;
 
 }
 .eduCards p{
-    font-size:0.7rem;
+    font-size:1rem;
     font-family: 'IBM Plex Mono', monospace;
     
     margin-left: 2.4rem;
@@ -105,6 +112,53 @@
     
     
 }
+.iDoLeftContainer
+{
+    
+    min-height:40rem;
+    background-color:#072b62;
+    border-radius:0% 0% 100% 0%;
+    text-align: center;
+}
+.iDoLeftContainer .eduContainer
+
+{
+   margin-top:15rem;
+}
+.eduContainer h2{
+    font-size:3.8rem;
+    font-weight:500;
+    color:#299df2;
+    font-family: 'Cookie', cursive;
+    letter-spacing:0.2rem;
+}
+.iDoRightContainer
+{
+    min-height:65vh;
+    background-image: url("../../../public//images/doImage.jpg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position:center;
+    margin-top:15rem;
+}
+.doCards
+{
+    width: 40rem;
+    background: linear-gradient(deg, rgba(24, 222, 199, 0), rgba(4, 242, 214, 0));
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 5px 15px 0 rgba(4, 242, 213, 0.37);
+    margin-top: 3rem;
+}
+.doCards img{
+    float: right;
+    width:4.5rem;
+    position: relative;
+    bottom:2.6rem;
+    margin-right:0.5rem;
+} 
+
 
 @media screen and (max-width: 992px) {
    
@@ -124,6 +178,17 @@
 {
     min-height:40vh;
     
+
+}
+.iDoLeftContainer{
+    min-height:40vh;
+    background-size: 60%;
+    border-radius:0% 0% 20% 0%;
+
+}
+.iDoRightContainer{
+    margin-top:2rem;
+    min-height:50vh
 }
 
 

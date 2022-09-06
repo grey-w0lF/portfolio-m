@@ -9,6 +9,7 @@
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 5px 15px 0 rgba(4, 242, 213, 0.37);
     
+    
 }
 .navContainer img {
     width:6.8rem;
@@ -62,7 +63,7 @@
 }
 .popupMenu li{
     list-style:none;
-    font-size:2.2rem;
+    font-size:2rem;
     margin: 2rem;
     font-family: "IBM Plex Sans", sans-serif;
     color:#d9d9d9;
@@ -95,6 +96,6 @@
     }
     .navContainer img {
         
-        margin-left:80%;
+        margin-left:4rem;
     }
 }
