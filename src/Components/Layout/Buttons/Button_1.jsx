@@ -11,6 +11,7 @@ const Button_1 = (props) => {
         variants={Button1_Variants}
         whileHover="whileHover"
         whileTap="onClick"
+        onClick={props.onClick}
       >
         {props.title}
         {props.icon}

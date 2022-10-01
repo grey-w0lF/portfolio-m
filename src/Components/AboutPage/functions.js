@@ -25,5 +25,11 @@ const card3Transition = {
   type: "spring",
   stifness: 120,
 };
+const card4Transition = {
+  delay: 0.7,
+  duration: 0.5,
+  type: "spring",
+  stifness: 120,
+};
 
-export { eduCardVariant, card1Transition, card2Transition, card3Transition };
+export { eduCardVariant, card1Transition, card2Transition, card3Transition,card4Transition };

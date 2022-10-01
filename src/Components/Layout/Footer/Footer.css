@@ -1,0 +1,49 @@
+.footerContainer
+{
+    width:85vw !important;
+    margin-top: 0px;
+    border-radius:7px;
+    background: linear-gradient(deg, rgba(24, 222, 199, 0), rgba(4, 242, 214, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 5px 15px 0 rgba(4, 242, 213, 0.37);
+}
+.footerLinks{
+    margin-top:0.3rem;
+}
+.footerLinks div
+{
+    margin:0 1rem 0 1rem;
+    cursor:pointer;
+}
+.footerIcons
+{
+    color:#ff4d6b;
+    font-size: 2.5rem !important;
+}
+.copyRight
+{
+    color:grey;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    margin:0.2rem;
+}
+.creditText{
+    color:#299df2;
+    font-size:1.5rem;
+    margin: 0 2rem 0 2rem;
+    font-family: 'Cookie', cursive;
+    word-spacing: 1rem;
+    margin:0.2rem;
+
+}
+
+.heartIcon
+{
+    color:#ff4d6b;
+    position: relative;
+    top:0.3rem;
+    font-size: 1.5rem !important;
+
+}

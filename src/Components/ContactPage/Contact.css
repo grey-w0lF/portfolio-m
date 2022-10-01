@@ -1,0 +1,163 @@
+.contactMainContainer
+{
+    min-height: 95vh;
+}
+
+.formMainContainer
+{
+   
+    max-width: 40rem;
+    min-height: 35rem;
+    
+    background: linear-gradient(deg, rgba(24, 222, 199, 0), rgba(4, 242, 214, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 5px 15px 0 rgba(4, 242, 213, 0.37);
+    margin-top:8rem;
+    
+}
+.formLeft{
+    width:50%;
+    text-align: center;
+    border-radius:3px 0 0 3px;
+}
+.cancelButton
+{
+  color:#ff4d6b;
+  font-size: 4rem !important;
+  float:right;
+  margin:0.5rem;
+  display:none !important;
+}
+.formRight{
+    width:50%;
+    text-align: center;
+    background-image: url("../../../public/images/contact.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:100%;
+    background-color: #072b62;
+    border-radius:0 3px 3px 0px;
+}
+.formRight p{
+  color:#299df2;
+  font-family: 'Cookie', cursive;
+  font-size:3rem;
+  margin-top: 0.5rem;
+}
+.messageMe
+{
+  display: none;
+}
+
+.contactFormLinks .icons{
+    color:#299df2;
+    font-size:2.5rem;
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+.formLeft label
+{
+  color:#299df2;
+  font-family: 'Cookie', cursive;
+  font-size: 2rem;
+  font-weight:550;
+ 
+  
+ 
+  
+}
+.formLeft input{
+    background: linear-gradient(deg, rgba(24, 222, 199, 0), rgba(4, 242, 214, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 5px 15px 0 rgba(4, 242, 213, 0.37);
+    outline: none;
+    
+    margin-top:0.5rem;
+    width:18rem;
+    height:2rem;
+    
+    
+    
+    
+}
+.formLeft textarea{
+    background: linear-gradient(deg, rgba(24, 222, 199, 0), rgba(4, 242, 214, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 5px 15px 0 rgba(4, 242, 213, 0.37);
+    outline: none;
+    
+    margin-top:0.5rem;
+    width:18rem;
+    height:2rem;
+    
+
+    }
+
+
+
+    @media screen and (max-width: 992px) {
+   
+    }
+    
+    @media screen and (max-width: 768px) {
+      
+    }
+    
+    @media screen and (max-width: 576px) {
+      .formMainContainer{
+        max-width:30rem;
+      }
+      .formLeft{
+        display:none;
+      }
+      .formLeft input{
+        width:100%;
+      }
+      .formLeft textarea{
+        width:100%;
+      }
+      .formLeftHid{
+        display: block;
+        width:100%;
+        text-align: center;
+        border-radius:3px 0 0 3px;
+        
+        
+      }
+      .formRightHid
+      {
+        display: none;
+      }
+      .formRight p{
+        display:none;
+    }
+    .messageMe{
+      color:#299df2;
+    font-family: 'Cookie', cursive;
+    font-size:4rem;
+    font-weight: 500;
+    
+    display:block;
+    }
+    .cancelButton{
+      display:block !important;
+    }
+    .messageMe .icons{
+      font-size: 4rem;
+      position: relative;
+    top:1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    }
+      .formRight{
+        width: 100% !important;
+      }
+      
+    }

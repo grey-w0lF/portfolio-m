@@ -32,8 +32,9 @@ const AboutPage = () => {
             <Grid
               container
               direction="column"
-              justifyContent="center"
+              justifyContent="flex-end"
               alignItems="center"
+              
             >
               <Grid item>
                 <motion.div
@@ -92,7 +93,7 @@ const AboutPage = () => {
                   </a>
                 </motion.div>
               </Grid>
-              <Grid item style={{ marginTop: "2rem" }}>
+              <Grid item>
                 <Link to="/ido">
                   <Button_1 title="What I Do?" />
                 </Link>

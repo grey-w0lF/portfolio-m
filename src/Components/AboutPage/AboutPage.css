@@ -1,6 +1,6 @@
 .AboutPageContainer
 {
-    min-height:100vh;
+    min-height:95vh;
    
     overflow:hidden;
     
@@ -38,19 +38,17 @@
 }
 .aboutLeftContainer
 {
-    min-height:90vh;
+    min-height:95vh;
     
 }
 .aboutRightContainer
 {
-    min-height:50vh;
+    min-height:60vh;
     background-image: url("../../../public//images/edu.jpg");
     background-repeat: no-repeat;
     background-size: 70%;
     background-position:center;
-    
-  
-
+   
 }
 .eduCards
 {
@@ -61,7 +59,7 @@
     -webkit-backdrop-filter: blur(7px);
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 5px 15px 0 rgba(4, 242, 213, 0.37);
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .eduCards h3
 {
@@ -139,7 +137,7 @@
     background-repeat: no-repeat;
     background-size: 90%;
     background-position:center;
-    margin-top:15rem;
+    margin-top:12rem;
 }
 .doCards
 {
@@ -149,15 +147,41 @@
     -webkit-backdrop-filter: blur(7px);
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 5px 15px 0 rgba(4, 242, 213, 0.37);
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .doCards img{
     float: right;
-    width:4.5rem;
+  
     position: relative;
-    bottom:2.6rem;
+   
     margin-right:0.5rem;
+}
+.doCards h3{
+    font-size:1.5rem;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: 2.4rem;
+    color:#072b62; 
 } 
+.doCards h4{
+    font-size:1.3rem;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: 2.4rem;
+    color:#072b62;
+    
+}
+.doCards ul li
+{
+    list-style-type:none;
+    display:inline-flex;
+    cursor:pointer;
+    margin:0.4rem;
+    
+
+   
+}
+.doCards ul img{
+    width:4rem;
+}
 
 
 @media screen and (max-width: 992px) {

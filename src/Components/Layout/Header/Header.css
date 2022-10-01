@@ -8,6 +8,7 @@
     -webkit-backdrop-filter: blur(10px);
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 5px 15px 0 rgba(4, 242, 213, 0.37);
+    z-index: 10000;
     
     
 }
